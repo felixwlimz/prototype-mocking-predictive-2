@@ -27,7 +27,7 @@ def main():
     st.markdown("Analisis spasial berdasarkan koordinat presisi dari 50 kota.")
 
     # 1. LOAD DATA
-    filepath = 'viva_cosmetics_dl_dataset.csv'
+    filepath = 'v_cosmetics_dataset.csv'
     try:
         df = load_data(filepath)
     except Exception as e:
@@ -107,9 +107,6 @@ def main():
         else:
             st.success("✅ Peluang Ekspansi: Kompetisi rendah, tingkatkan stok!")
 
-    # 5. DATA EXPLORER
-    with st.expander("🔎 Lihat Data Koordinat Mentah"):
-        st.write(filtered_df[['kota', 'lat', 'lon', 'unit_terjual', 'produk']].head(100))
 
 
 if __name__ == "__main__":

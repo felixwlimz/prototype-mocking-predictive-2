@@ -464,12 +464,12 @@ def main():
     """Main execution function"""
     print("\n")
     print("=" * 80)
-    print(" " * 15 + "VIVA COSMETICS - PREDICTIVE AI")
+    print(" " * 15 + "V COSMETICS - PREDICTIVE AI")
     print(" " * 20 + "Sales Forecasting Models")
     print("=" * 80)
 
     # Load data
-    filepath = 'viva_cosmetics_dl_dataset.csv'
+    filepath = 'v_cosmetics_dataset.csv'
     X, y, label_encoders, categorical_cols, numerical_cols = load_and_preprocess_data(filepath)
 
     # Split data
