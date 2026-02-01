@@ -23,7 +23,7 @@ def load_data(filepath):
 
 
 def main():
-    st.title("📍 Viva Cosmetics - Location Intelligence Dashboard")
+    st.title("📍 V Cosmetics - Location Intelligence Dashboard")
     st.markdown("Analisis spasial berdasarkan koordinat presisi dari 50 kota.")
 
     # 1. LOAD DATA
