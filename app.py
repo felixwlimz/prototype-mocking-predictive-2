@@ -107,6 +107,9 @@ def main():
         else:
             st.success("✅ Peluang Ekspansi: Kompetisi rendah, tingkatkan stok!")
 
+    # 5. DATA EXPLORER
+    with st.expander("🔎 Lihat Data Koordinat Mentah"):
+        st.write(filtered_df[['kota', 'lat', 'lon', 'unit_terjual', 'produk']].head(100))
 
 
 if __name__ == "__main__":
