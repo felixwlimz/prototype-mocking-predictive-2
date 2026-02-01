@@ -5,7 +5,7 @@ import pydeck as pdk
 import plotly.express as px
 
 # Konfigurasi Halaman
-st.set_page_config(page_title="Viva Cosmetics Geo-AI", layout="wide")
+st.set_page_config(page_title="V Cosmetics Geo-AI", layout="wide")
 
 
 @st.cache_data
